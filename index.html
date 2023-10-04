@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="styles/styles.css">
@@ -12,31 +11,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body class="main-content">
-   <header class="section sec1 header active">
-        <i class="fa-brands fa-instagram"></i>
+   <header class="section sec1 header active" id="home">
+        
    </header>
    <main>
-    <section class="section sec2 about"></section>
-    <section class="section sec3 projects"></section>
-    <section class="section sec4 certificates"></section>
-    <section class="section sec5 contact"></section> 
+    <section class="section sec2 about" id="about"></section>
+    <section class="section sec3 projects" d="projects"></section>
+    <section class="section sec4 certificates" id="certificates"></section>
+    <section class="section sec5 get in touch" id="get in touch"></section> 
    </main>
+
    <div class="controlls">
-    <div class="control control-1 active-btn">
+    <div class="control control-1 active-btn" data-id="home" >
         <i class="fa-solid fa-house" style="color: #f0285a;"></i>
     </div>
-    <div class="control control-2 ">
-        <i class="fa-solid fa-user"></i>
+    <div class="control control-2 " data-id="about" >
+        <i class="fa-solid fa-user" style="color: #f0285a;"></i>
     </div>
-    <div class="control control-3 ">
-        <i class="fa-solid fa-list-check"></i>
+    <div class="control control-3 " data-id="projects" >
+        <i class="fa-solid fa-list-check" style="color: #f0285a;"></i>
     </div>
-    <div class="control control-4 ">
-        <i class="fa-solid fa-stamp"></i>
+    <div class="control control-4 " data-id="certificates" >
+        <i class="fa-solid fa-stamp" style="color: #f0285a;"></i>
     </div>
-    <div class="control control-5 ">
-        <i class="fa-regular fa-address-book"></i>
+    <div class="control control-5 " data-id="get in touch" >
+        <i class="fa-regular fa-address-book" style="color: #f0285a;"></i>
     </div>
    </div>
+
+   <script src="app.js"></script>
+
 </body>
 </html>

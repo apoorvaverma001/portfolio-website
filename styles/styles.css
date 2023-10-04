@@ -6,13 +6,13 @@
 }
 
 :root {
-  --color-primary: pink;
-  --color-secondary: #27AE60;
+  --color-primary: #FFEADD;
+  --color-secondary: #FF6666;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
-  --color-grey-1: #dbe1e8;
-  --color-grey-2: #b2becd;
+  --color-pink-1: #FCAEAE;
+  --color-pink-2: #FF8989;
   --color-grey-3: #6c7983;
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
@@ -104,7 +104,7 @@ section {
   transform: translateY(-50%);
 }
 .controlls .active-btn {
-  background-color: var(--color-secondary) !important;
+  background-color: var(--color-pink-1) !important;
   transition: all 0.4s ease-in-out;
 }
 .controlls .active-btn i {
@@ -125,6 +125,24 @@ section {
 }
 .controlls .control i {
   font-size: 1.2rem;
-  color: var(--color-grey-2);
+  color: var(--color-pink-2);
   pointer-events: none;
+}
+
+body {
+  cursor: none;
+}
+
+#cursor {
+  height: 50px;
+  width: 50px;
+  background: #FF6666;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 0.01s;
+  transition-timing-function: ease-out;
+}
+
+div:hover ~ #cursor {
+  transform: scale(0.5);
 }/*# sourceMappingURL=styles.css.map */

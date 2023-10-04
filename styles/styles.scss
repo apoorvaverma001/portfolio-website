@@ -119,5 +119,10 @@ section{
         justify-content: center;
         margin: .7rem;
         box-shadow: var(--box-shadow-1);
+        i{
+            font-size: 1.2rem;
+            color: var(--color-grey-2);
+            pointer-events: none;
+        }
     }
 }

@@ -62,36 +62,35 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-}
-
-.sec1{
-    display: none;
-    transform: translateY(0) scale(1);
+    background-color: #5ce539;
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #e539cb;
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
-}
-
-.sec1{
-    display: none;
-    transform: translateY(0) scale(1);
+    background-color: #7f52ef;
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #f4de51;
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #ef4806;
+}
+
+.active{
+    display: block;
 }
 
 
@@ -145,6 +144,7 @@ body{
     position: absolute;
     transition-duration: 0.01s;
     transition-timing-function: ease-out;
+    filter: blur(5px);
 
 }
 

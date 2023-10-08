@@ -62,7 +62,7 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #FFEADD;
+    background-color: var(--color-pink-1);
 }
 
 .sec2{
@@ -102,7 +102,6 @@ section{
         }
     }
 }
-
 
 //controls
 .controlls{
